@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+    background-image: url("https://img.freepik.com/premium-photo/pencil-checking-off-todo-list-3d-rendering-with-blue-background-copy-space_671359-10.jpg?w=740");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+#wrapper{
+    width: 25%;
+    margin-right: 350px;
+    margin-top: -50px;
+      padding: 50px;
+    color: #fff;
+   
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 0px );
+-webkit-backdrop-filter: blur( 0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+#wrapper h1{
+    text-transform: uppercase;
+    margin-bottom: 5%;
+}
+#single-task {
+    width: 353px;
+    padding: 15px;
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    @media (max-width: 1400px) {
+        width: 100%; 
+    }
+}
+
+
+button{
+    background-color: #5454c5;
+    border: none;
+    color: #fff;
+    padding: 13px 18px;
+    font-size: 18px;
+  
+
+
+    
+}
+.task{
+    margin-bottom: 5px;
+    margin-top: 20px;
+    background: #fff;
+    color: #000;
+    list-style: none;
+    padding: 0 15px;
+    line-height: 35px;
+}
+.task input[type="checkbox"]{
+    display: none;
+}
+.task .delete{
+    color: red;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0;
+    float: right;
+    border-color: blanchedalmond ;
+}
+.task .edit{
+    color: red;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0;
+    float: right;
+    padding-left: 1%;
+}
